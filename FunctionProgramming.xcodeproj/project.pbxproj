@@ -13,6 +13,9 @@
 		3EFF4F0C1E2359CB006E8353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF4F0A1E2359CB006E8353 /* Main.storyboard */; };
 		3EFF4F0E1E2359CB006E8353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF4F0D1E2359CB006E8353 /* Assets.xcassets */; };
 		3EFF4F111E2359CB006E8353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF4F0F1E2359CB006E8353 /* LaunchScreen.storyboard */; };
+		3EFF4F1D1E235A1F006E8353 /* CaculateMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFF4F1C1E235A1F006E8353 /* CaculateMaker.m */; };
+		3EFF4F231E237E04006E8353 /* WQChainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFF4F221E237E04006E8353 /* WQChainManager.m */; };
+		3EFF4F261E237E48006E8353 /* UIView+chainProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFF4F251E237E48006E8353 /* UIView+chainProperty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		3EFF4F0D1E2359CB006E8353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EFF4F101E2359CB006E8353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EFF4F121E2359CB006E8353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EFF4F1B1E235A1F006E8353 /* CaculateMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculateMaker.h; sourceTree = "<group>"; };
+		3EFF4F1C1E235A1F006E8353 /* CaculateMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculateMaker.m; sourceTree = "<group>"; };
+		3EFF4F211E237E04006E8353 /* WQChainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQChainManager.h; sourceTree = "<group>"; };
+		3EFF4F221E237E04006E8353 /* WQChainManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQChainManager.m; sourceTree = "<group>"; };
+		3EFF4F241E237E48006E8353 /* UIView+chainProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+chainProperty.h"; sourceTree = "<group>"; };
+		3EFF4F251E237E48006E8353 /* UIView+chainProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+chainProperty.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,14 @@
 			children = (
 				3EFF4F041E2359CB006E8353 /* AppDelegate.h */,
 				3EFF4F051E2359CB006E8353 /* AppDelegate.m */,
+				3EFF4F1B1E235A1F006E8353 /* CaculateMaker.h */,
+				3EFF4F1C1E235A1F006E8353 /* CaculateMaker.m */,
 				3EFF4F071E2359CB006E8353 /* ViewController.h */,
 				3EFF4F081E2359CB006E8353 /* ViewController.m */,
+				3EFF4F211E237E04006E8353 /* WQChainManager.h */,
+				3EFF4F221E237E04006E8353 /* WQChainManager.m */,
+				3EFF4F241E237E48006E8353 /* UIView+chainProperty.h */,
+				3EFF4F251E237E48006E8353 /* UIView+chainProperty.m */,
 				3EFF4F0A1E2359CB006E8353 /* Main.storyboard */,
 				3EFF4F0D1E2359CB006E8353 /* Assets.xcassets */,
 				3EFF4F0F1E2359CB006E8353 /* LaunchScreen.storyboard */,
@@ -151,8 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFF4F1D1E235A1F006E8353 /* CaculateMaker.m in Sources */,
+				3EFF4F261E237E48006E8353 /* UIView+chainProperty.m in Sources */,
 				3EFF4F091E2359CB006E8353 /* ViewController.m in Sources */,
 				3EFF4F061E2359CB006E8353 /* AppDelegate.m in Sources */,
+				3EFF4F231E237E04006E8353 /* WQChainManager.m in Sources */,
 				3EFF4F031E2359CB006E8353 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
